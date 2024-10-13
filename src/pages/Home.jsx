@@ -57,7 +57,7 @@ const Home = () => {
             <CustomButton
               className='uppercase rounded-full bg-black text-white p-4 font-custom font-medium hover:bg-[#6e6e6b] hover:scale-110 transition-all duration-300'
               text="View More"
-              to="/portfolio"
+              to="/portfolio-content"
             />
           </div>
         </div>
