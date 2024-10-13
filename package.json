@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Hossam-Saieed.github.io/",
+  "homepage": "https://hossam-saieed.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
