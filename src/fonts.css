@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'ClashGrotesk'; 
+  src: url('./assets/fonts/ClashGrotesk-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal; 
+}
