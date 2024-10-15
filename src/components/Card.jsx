@@ -29,7 +29,7 @@ const Card = ({
       className={`flex flex-col rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl hover:rounded-2xl cursor-pointer`}>
       {/* Image section with the first background color */}
       <div className={`${bgColor1} flex justify-center items-center h-3/4 px-8 py-12 md:p-16 lg:py-20 lg:px-10`}>
-        {imgSrc && <img src={imgSrc} alt={imgAlt} loading="lazy" className="w-full h-3/4 md:h-auto lg:h-auto rounded-lg" />}
+        {/* {imgSrc && <img src={imgSrc} alt={imgAlt} loading="lazy" className="w-full h-3/4 md:h-auto lg:h-auto rounded-lg" />} */}
       </div>
 
       {/* Content section with the second background color */}
@@ -75,7 +75,7 @@ const Card = ({
         <p className="text-gray-500 text-sm md:text-base">{description}</p>
       </div>
       <div className="flex justify-start items-start lg:justify-start">
-        <img className="w-1/2 md:w-full lg:w-full h-auto" src={imgSrc} loading="lazy" alt={imgAlt} />
+        {/* <img className="w-1/2 md:w-full lg:w-full h-auto" src={imgSrc} loading="lazy" alt={imgAlt} /> */}
       </div>
     </div>
   );
