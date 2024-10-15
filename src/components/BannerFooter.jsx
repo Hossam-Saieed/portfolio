@@ -9,7 +9,7 @@ const BannerFooter = () => {
         <section className="relative mt-36">
             <img
                 className="rounded-3xl w-full h-auto"
-                src={BannerFooter}
+                src={BannerFooterBG}
                 loading="lazy"
                 alt="background-img"
             />
