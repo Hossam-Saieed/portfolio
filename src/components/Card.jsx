@@ -1,4 +1,5 @@
 import swal from 'sweetalert';
+import { useNavigate } from 'react-router-dom';
 
 const Card = ({
   imgSrc,
@@ -14,12 +15,12 @@ const Card = ({
   description,
   onClick,
 }) => {
+  const navigate = useNavigate();
   const handleProjectView = () => {
     if (!published) {
       swal("Oops!", "This project isn't published yet!", "warning");
     } else {
-      // Replace with your navigation logic
-      window.location.href = `/${projectPath}`
+    navigate(`/${projectPath}`);
     }
   }
   return cardType === "vertical" ? (
