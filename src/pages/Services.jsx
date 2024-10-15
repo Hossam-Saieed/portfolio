@@ -1,6 +1,6 @@
 import React from 'react';
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import NewServiceImg from '../assets/serviceimgWhite.jpg'
+// import NewServiceImg from '../assets/serviceimgWhite.jpg'
 import DiamondIcon from '../assets/Vector.svg';
 import {
   providedServices,
@@ -97,7 +97,7 @@ const Services = () => {
             </div>
           </div>
           <img
-            src={NewServiceImg}
+            src="https://i.postimg.cc/sXmzt0ZT/service-Img-White.png"
             loading="lazy"
             alt='Hossam'
             className="w-full md:w-1/3 lg:w-1/3 h-auto rounded-3xl"

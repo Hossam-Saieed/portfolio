@@ -1,9 +1,9 @@
-import FirstProjectImg from './assets/first.jpg'
-import SecondProjectImg from './assets/second.jpg'
-import ThirdProjectImg from './assets/third.jpg'
-import Collector from "./assets/CollectorProject.jpg"
-import serviceIconCube from './assets/IconWrapper.jpg'
-import serviceIconSearch from './assets/IconWrapper2.jpg'
+// import FirstProjectImg from './assets/first.jpg'
+// import SecondProjectImg from './assets/second.jpg'
+// import ThirdProjectImg from './assets/third.jpg'
+// import Collector from "./assets/CollectorProject.jpg"
+// import serviceIconCube from './assets/IconWrapper.jpg'
+// import serviceIconSearch from './assets/IconWrapper2.jpg'
 import firstContactIcon from './assets/contactFirst.svg'
 import secondContactIcon from './assets/contactSecond.svg'
 import thirdContactIcon from './assets/contactThird.svg'
@@ -68,7 +68,7 @@ export const portfolioTitle = "My Work Portfolio";
 //home section
 export const recentProjects = [
   {
-    imgSrc: FirstProjectImg,
+    imgSrc: "https://i.postimg.cc/wMbpBy2J/first.png",
     imgAlt: "Project 1 Screenshot",
     cardTitle: "PBPM",
     projectPath: "pbpm",
@@ -287,7 +287,7 @@ export const recentProjects = [
     },
   },
   {
-    imgSrc: SecondProjectImg,
+    imgSrc: "https://i.postimg.cc/DzKKmKrC/second.png",
     imgAlt: "Project 2 Screenshot",
     cardTitle: "Geo Spatial",
     projectPath: "geo-spatial",
@@ -318,7 +318,7 @@ export const recentProjects = [
     }
   },
   {
-    imgSrc: ThirdProjectImg,
+    imgSrc: "https://i.postimg.cc/ZnqmZF84/Third.png",
     imgAlt: "Project 3 Screenshot",
     cardTitle: "MMS",
     projectPath: "mms",
@@ -329,7 +329,7 @@ export const recentProjects = [
     published: false,
   },
   {
-    imgSrc: Collector,
+    imgSrc: "https://i.postimg.cc/bYLYMdxq/Collector-Project.png",
     imgAlt: "Collector Project",
     cardTitle: "Collector",
     projectPath: "collector",
@@ -345,12 +345,12 @@ export const providedServices = [
   {
     "title": "Product Design",
     "description": "I design great digital experiences, creating mobile apps, websites, desktop platforms, and dashboards with a creative, user-centered approach. My designs deliver user-friendly, visually appealing interfaces that align with business goals for both B2B and B2C markets.",
-    "image": serviceIconCube
+    "image": "https://i.postimg.cc/W4RsrZvw/Icon-Wrapper.png"
   },
   {
     "title": "UX Design",
     "description": "I specialize in UX Design, utilizing research-driven methodologies, testing, and analysis to craft seamless and intuitive experiences across products. By focusing on user needs and business objectives, I deliver engaging, user-friendly interfaces that drive success.",
-    "image": serviceIconSearch
+    "image": "https://i.postimg.cc/tghpzgRQ/Icon-Wrapper2.png"
   }
 ];
 

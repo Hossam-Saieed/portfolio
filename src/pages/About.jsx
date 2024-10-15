@@ -1,9 +1,9 @@
 import React from "react";
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import firstAboutImg from '../assets/firstAbout.jpg';
-import AHR from '../assets/AHR.jpg';
-import Group from '../assets/Group.jpg';
-import Pentab from '../assets/Pentab.jpg';
+// import firstAboutImg from '../assets/firstAbout.jpg';
+// import AHR from '../assets/AHR.jpg';
+// import Group from '../assets/Group.jpg';
+// import Pentab from '../assets/Pentab.jpg';
 import {
   aboutDescription,
   aboutTitle,
@@ -57,7 +57,7 @@ const About = () => {
         {/* Images below the content */}
         <div className="flex flex-col md:flex-row w-full mt-8">
           <img
-            src={firstAboutImg}
+            src="https://i.postimg.cc/vZxQczpm/first-About.jpg"
             loading="lazy"
             alt="Hossam IMG"
             className="rounded-3xl w-full object-cover"
@@ -144,9 +144,9 @@ const About = () => {
           </div>
           <div className="flex flex-col items-center border-y-2 p-10 border-[#E6E6E3] md:flex-col lg:flex-row justify-center gap-16">
             {/* Insert client logos here */}
-            <img src={AHR} loading="lazy" alt="Client 1" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
-            <img src={Group} loading="lazy" alt="Client 2" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
-            <img src={Pentab} loading="lazy" alt="Client 3" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
+            <img src="https://i.postimg.cc/J0T1Bdrs/AHR.png" loading="lazy" alt="Client 1" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
+            <img src="https://i.postimg.cc/wTGqqP4P/Group.png" loading="lazy" alt="Client 2" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
+            <img src="https://i.postimg.cc/LX2RQMhq/Pentab.png" loading="lazy" alt="Client 3" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
           </div>
         </div>
       </section>
