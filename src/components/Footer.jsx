@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="mb-4">
             <h1 className='font-custom font-bold text-2xl'>
-              <Link to="/portfolio">HS</Link>
+              <Link to="/">HS</Link>
             </h1>
           </div>
 
