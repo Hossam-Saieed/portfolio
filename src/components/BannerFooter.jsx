@@ -2,7 +2,7 @@ import React from "react";
 import { bannerFooterFirstText, bannerFooterSecondText } from "../constants";
 import NavItem from "./NavItem";
 import Vector from '../assets/Vector.svg';
-import BannerFooter from '../assets/BannerFooter.svg';
+import BannerFooterBG from '../assets/BannerFooterBG.svg';
 
 const BannerFooter = () => {
     return (
