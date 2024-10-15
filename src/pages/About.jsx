@@ -1,9 +1,5 @@
 import React from "react";
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
-// import firstAboutImg from '../assets/firstAbout.jpg';
-// import AHR from '../assets/AHR.jpg';
-// import Group from '../assets/Group.jpg';
-// import Pentab from '../assets/Pentab.jpg';
 import {
   aboutDescription,
   aboutTitle,
@@ -21,6 +17,9 @@ import {
   statisticsTitle,
   valuedClients
 } from "../constants";
+import AHR from '../assets/AHR.svg';
+import NTRA from '../assets/NTRA.svg';
+import PENTAB from '../assets/PentaB.svg'
 import DiamondIcon from '../assets/Vector.svg';
 import Card from "../components/Card";
 import VideoPlayer from "../components/VideoPlayer";
@@ -144,9 +143,9 @@ const About = () => {
           </div>
           <div className="flex flex-col items-center border-y-2 p-10 border-[#E6E6E3] md:flex-col lg:flex-row justify-center gap-16">
             {/* Insert client logos here */}
-            <img src="https://i.postimg.cc/J0T1Bdrs/AHR.png" loading="lazy" alt="Client 1" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
-            <img src="https://i.postimg.cc/wTGqqP4P/Group.png" loading="lazy" alt="Client 2" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
-            <img src="https://i.postimg.cc/LX2RQMhq/Pentab.png" loading="lazy" alt="Client 3" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
+            <img src={AHR} loading="lazy" alt="Client 1" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
+            <img src={NTRA} loading="lazy" alt="Client 2" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
+            <img src={PENTAB} loading="lazy" alt="Client 3" className="w-2/3  md:w-1/12 lg:w-1/12 h-full object-fit" />
           </div>
         </div>
       </section>
