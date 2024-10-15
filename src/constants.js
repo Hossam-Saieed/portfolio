@@ -1,9 +1,9 @@
-// import FirstProjectImg from './assets/first.png'
-// import SecondProjectImg from './assets/second.png'
-// import ThirdProjectImg from './assets/third.png'
-// import Collector from "./assets/CollectorProject.png"
-// import serviceIconCube from './assets/IconWrapper.png'
-// import serviceIconSearch from './assets/IconWrapper2.png'
+import FirstProjectImg from './assets/first.jpg'
+import SecondProjectImg from './assets/second.jpg'
+import ThirdProjectImg from './assets/third.jpg'
+import Collector from "./assets/CollectorProject.jpg"
+import serviceIconCube from './assets/IconWrapper.jpg'
+import serviceIconSearch from './assets/IconWrapper2.jpg'
 import firstContactIcon from './assets/contactFirst.svg'
 import secondContactIcon from './assets/contactSecond.svg'
 import thirdContactIcon from './assets/contactThird.svg'
