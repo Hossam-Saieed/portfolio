@@ -48,7 +48,7 @@ const Portfolio = () => {
                             {portfolioTitle}
                         </h1>
 
-                        <div className="flex flex-wrap gap-2 text-center my-4">
+                        {/* <div className="flex flex-wrap gap-2 text-center my-4">
                             <button
                                 className={`py-2 px-4 uppercase rounded-full font-medium text-sm ${activeTech == "" ? "bg-black text-white" : "border-2 border-[#12120F80]"}`}
                                 onClick={() => handleFilter("")}
@@ -65,7 +65,7 @@ const Portfolio = () => {
                                 </button>
                             ))}
 
-                        </div>
+                        </div> */}
 
                     </div>
 
