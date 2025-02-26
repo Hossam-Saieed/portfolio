@@ -390,3 +390,12 @@ export const resendAMsg = "new Message"
 export const PBPMTitle = "PBPM"
 export const AboutProject = "About The Project"
 export const GEOSpatialTitle = "Geo spatial"
+
+//email template
+export const emailTemplateSubject = "Request for Portfolio PDF";
+export const body = `Hi [Your Name],
+I’m interested in viewing your portfolio and learning more about your work. Please share your PDF portfolio at your earliest convenience.
+Looking forward to your response.
+Best regards,
+[User’s Name]`;
+export const email = "webdesignhossam@gmail.com";

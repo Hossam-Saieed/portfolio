@@ -42,18 +42,20 @@ const Navbar = () => {
 
         {/* Navigation Links (visible on larger screens, hidden on mobile) */}
         <ul className={`hidden md:flex flex-row gap-3 md:gap-5`}>
-          <NavItem to="/portfolio-content" isActive={location.pathname === '/portfolio'}>Portfolio</NavItem>
+          <NavItem to="/portfolio" isActive={location.pathname === '/portfolio'}>Portfolio</NavItem>
           <NavItem to="/about" isActive={location.pathname === '/about'}>About</NavItem>
           <NavItem to="/services" isActive={location.pathname === '/services'}>Services</NavItem>
           <NavItem to="/contactme" isActive={location.pathname === '/contactme'}>Contact Me</NavItem>
+          <NavItem classname="bg-black text-white  hover:border-black hover:bg-white hover:text-black hover:pl-[20px] hover:pr-[20px]" >REQUEST PDF PORTFOLIO</NavItem>
         </ul>
 
         {/* Mobile Menu (visible only on small screens) */}
         <ul className={`list-none flex flex-col gap-3 absolute top-16 left-0 bg-white shadow-md p-4 w-full z-50 md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <NavItem onClick={closeMenu} to="/portfolio-content" isActive={location.pathname === '/portfolio'}>Portfolio</NavItem>
+          <NavItem onClick={closeMenu} to="/portfolio" isActive={location.pathname === '/portfolio'}>Portfolio</NavItem>
           <NavItem onClick={closeMenu} to="/about" isActive={location.pathname === '/about'}>About</NavItem>
           <NavItem onClick={closeMenu} to="/services" isActive={location.pathname === '/services'}>Services</NavItem>
           <NavItem onClick={closeMenu} to="/contactme" isActive={location.pathname === '/contactme'}>Contact Me</NavItem>
+          <NavItem classname="bg-black text-white  hover:border-black hover:bg-white hover:text-black hover:pl-[20px] hover:pr-[20px]" >REQUEST PDF PORTFOLIO</NavItem>
         </ul>
       </nav>
       <MarqueeBar />
